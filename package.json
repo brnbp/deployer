@@ -1,6 +1,6 @@
 {
-  "name": "conversation-simple",
-  "description": "A simple Node.js based web app which shows how to use the Conversation API to recognize user intents.",
+  "name": "deployer",
+  "description": "A simple Node.js for deploying apps",
   "version": "0.1.1",
   "main": "server.js",
   "scripts": {
@@ -12,8 +12,7 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
-    "phantomjs-prebuilt": "^2.1.13"
+    "nodemon": "^1.11.0"
   },
   "engine": {
     "node": ">= 6.9.x",
