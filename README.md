@@ -33,9 +33,7 @@ You need to install manually by following a few steps:
     ````
 
 5. Configure your nginx/apache server for the deployer application proxying to folder
-   ````
-      $ chmod +x spt
-   ````
+  
 
 5. Give server.js Permissions
     ````
