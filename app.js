@@ -1,5 +1,3 @@
-'use strict';
-
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -15,7 +13,7 @@ const options = {uid: UBUNTU_USER_ID}
 app.post('/fire', function (req, res) {
   exec("cd ~/appFolder/ && git stash && git pull origin master && composer update", options)
   
-  return res.status(200).json('pong')
+  return res.status(200).json('done')
 });
 
 module.exports = app;
